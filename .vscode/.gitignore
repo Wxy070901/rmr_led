@@ -1,0 +1,21 @@
+# 构建产物（最大，必须排除）
+build/
+cmake-build-*/
+*.o
+*.d
+*.a
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.su
+*.log
+
+# CubeMX/编辑器临时文件
+.mxproject/
+*.bak
+*.tmp
+*.swp
+*~
+.history/
